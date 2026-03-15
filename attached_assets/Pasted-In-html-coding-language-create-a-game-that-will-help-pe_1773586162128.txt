@@ -1,0 +1,11 @@
+In html coding language create a game that will help people with autism.  to start the game u press start the start button will be red and the background will be a painting of two persons having a conversation. After pressing the red button a faint sound of music will play. There will be at lest five different songs  that can play after the other and make a volume button that turns up and down to make the sound higher or lower. also after pressing the red button a ai will introduce it self as( I am vashawn  your new friend that will help u to learn how to talk to people).u should be able to talk back and fourth with vashawn with each of u taking turns asking each other different question that will help  the person to talk to other people confidently.
+you will also be able to type, for vashawn to better understand  and give u answers .after u press start and before it does anything it will ask for name age and gender. whatever name u put it will call u by that name u put in. it will also remember your age and gender , this will  be saved in files .     
+At the bottom of the screen after u press start it will have a voice chat feature where u can talk to vashawn. let vashawn use emojis along with text for a more immersive experience. Occasionally vashawn will ask the user some questions about social life from time to time. Make the buttons have a glassy effect and the ai can remember if it asked a question and awaits a question
+   
+it also have a level system where the more u talk to the ai the higher your rank .make five different ranks noob , rookie, beginner, pro and legendary . Have 50 conversations with vashawn to get noob, have 100 conversations with vashawn to get rookie, have 150 conversations with vashawn to get beginner, have 200 conversations with vashawn to get pro and 300 conversations with vashawn to get legendary. let vashawn have different answers to all question that is asked. The ai is to  answer appropriate questions about social life and answers politely and honestly.   Make a back button that takes you to the front page when clicked.
+Make a button that emits audio instead of typing. Make a settings button with three different male voices . 
+
+
+ 
+At every screen put a esc/back button that will bring you to the starting screen
+

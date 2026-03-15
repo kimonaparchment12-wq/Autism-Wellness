@@ -1,0 +1,19 @@
+packages:
+  "framer-motion": "Smooth animations and glassy effects for premium UI feel"
+  "lucide-react": "Beautiful consistent icons"
+  "react-hook-form": "Form state management"
+  "@hookform/resolvers": "Zod validation for forms"
+  "canvas-confetti": "Celebratory effects for ranking up"
+  "@types/canvas-confetti": "Types for confetti"
+
+images:
+  - path: "artifacts/vashawn-game/public/images/bg-painting.png"
+    description: "A warm, calming, therapeutic digital painting of two friendly people having a gentle conversation in a cozy sunlit room, soft pastel colors, warm glow, stylized illustration"
+    aspect_ratio: "16:9"
+  - path: "artifacts/vashawn-game/public/images/vashawn-avatar.png"
+    description: "A friendly, warm, approachable young man with a kind smile, looking directly at the viewer, soft lighting, expressive eyes, 3d illustration style, solid light peach background"
+    aspect_ratio: "1:1"
+
+notes:
+  - Web Audio API will be used for procedural ambient background music to ensure 100% reliability without external assets.
+  - SSE parsing will handle both text chat chunks and base64 audio chunks.

@@ -8,3 +8,85 @@
 export interface HealthStatus {
   status: string;
 }
+
+export interface ApiError {
+  error: string;
+}
+
+export interface UserProfile {
+  id: number;
+  name: string;
+  age: number;
+  gender: string;
+  conversationCount: number;
+  rank: string;
+  preferredVoice: string;
+  createdAt: string;
+}
+
+export interface SaveUserProfileBody {
+  name: string;
+  age: number;
+  gender: string;
+  preferredVoice?: string;
+}
+
+export interface OpenaiConversation {
+  id: number;
+  title: string;
+  createdAt: string;
+}
+
+export interface OpenaiMessage {
+  id: number;
+  conversationId: number;
+  role: string;
+  content: string;
+  createdAt: string;
+}
+
+export interface CreateOpenaiConversationBody {
+  title: string;
+}
+
+export interface SendOpenaiMessageBody {
+  content: string;
+  userName?: string;
+  userAge?: number;
+  userGender?: string;
+}
+
+export interface SendOpenaiVoiceMessageBody {
+  /** Base64-encoded audio data */
+  audio: string;
+}
+
+export interface OpenaiConversationWithMessages {
+  id: number;
+  title: string;
+  createdAt: string;
+  messages: OpenaiMessage[];
+}
+
+export type TextToSpeechBodyVoice =
+  (typeof TextToSpeechBodyVoice)[keyof typeof TextToSpeechBodyVoice];
+
+export const TextToSpeechBodyVoice = {
+  onyx: "onyx",
+  echo: "echo",
+  fable: "fable",
+} as const;
+
+export interface TextToSpeechBody {
+  text: string;
+  voice: TextToSpeechBodyVoice;
+}
+
+export interface TextToSpeechResponse {
+  /** Base64-encoded audio data */
+  audio: string;
+}
+
+export interface OpenaiError {
+  error: string;
+}
